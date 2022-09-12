@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=UTF-8">
+                 <title>Домашнее задание 1/title>
+   </head>
+<body>                              
 <ol>
 <li><a href="http://kubsu.ru/">КубГУ</a></li>
 <li><a href="https://kubsu.ru/">КубГУ(2)</a></li>
@@ -37,4 +44,63 @@
   
   https://avatars.mds.yandex.net/i?id=0f6316d34d44454128653e18e6748fe7-5500489-images-thumbs&n=13
   
-</ol>.
+</ol>
+ 
+<form action="/" method="POST">
+
+<label>
+Введите имя<br>
+<input name="field-name-1" value="Name">
+</label><br>
+
+<label>
+Введите email:<br>
+<input></label><br>
+
+<label>
+Введите дату рождения<br>
+<input name="field-date" value="2022-02-22" type="date">
+</label><br>
+
+Введите пол:<br>
+<label><input type="radio" checked="checked" name="radio-group-1" value="Значение1">
+Мужской</label><br>
+<label><input type="radio" name="radio-group-1" value="Значение2">
+Женский</label><br>
+
+Выберите кол-во конечностей:<br>
+<label><input type="radio" checked="checked" name="radio-group-1" value="Значение1">
+1</label>
+<label><input type="radio" checked="checked" name="radio-group-1" value="Значение2">
+2</label>
+<label><input type="radio" checked="checked" name="radio-group-1" value="Значение3">
+3</label>
+<label><input type="radio" name="radio-group-1" value="Значение4">
+4</label>
+<label><input type="radio" name="radio-group-1" value="Значениие 5">
+Больше 4х</label><br>
+
+<label>
+Сверхспособности:
+<br>
+<select name="field-name-4[]" multiple="multiple">
+<option value="Значение1">Бессмертие</option>
+<option value="Значение2" selected="selected">Левитация</option>
+<option value="Значение3" selected="selected">Прохождение сквозь стены</option>
+</select>
+</label><br>
+
+<label>
+Биография:
+<br>
+<textarea name="field-name-2" style="margin: 0px; height: 35px; width: 187px;">Напишите что-то о себе</textarea>
+</label><br>
+
+<label><input type="checkbox" checked="checked" name="check-1">
+с контрактом ознакомлен (а)</label><br>
+
+<input type="submit" value="Отправить">
+</form>                  
+                    
+</body>                    
+</html>
