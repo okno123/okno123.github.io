@@ -73,22 +73,20 @@ th
 }
 
 .image2
-{
-  
-    float: top; /* Обтекание картинки по левому краю */
-    padding-left: 20px; /* Отступ слева */
-    padding-top: 20px; /* Отступ сверху */
+{ 
+    padding-left: 20px; 
+    padding-top: 20px; 
     padding-bottom: 20px; /* Отступ снизу */
 }
 
 
 ul 
 {
-  list-style: none; /*убираем маркеры списка*/
-  margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
-  padding-left: 0; /*убираем левый отступ, равный 40px*/
+  list-style: none; 
+  margin: 0; 
+  padding-left: 0; 
 }
-a {text-decoration: none; /*убираем подчеркивание текста ссылок*/}
+a {text-decoration: none; }
 
 
 .menu
@@ -176,6 +174,10 @@ table
   height: 50px;
   margin-top: -50px;
 }
+
+
+
+
 
 
 
