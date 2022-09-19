@@ -1,6 +1,5 @@
 body 
 {
- /*text-align: center;*/
  margin:0;   
  background-color:#FFB6C1;
  font-size: 18px;
@@ -15,13 +14,13 @@ header
 
 ul,ol
 {
-  padding: 0;  /*Убираем поля */
+  padding: 0;  
   list-style-position: inside;
 }
   
 .titul
 {
-  padding-left: 565px; /* Отступ слева */
+  padding-left: 565px; 
   color: #606060;
 }
 
@@ -172,13 +171,11 @@ table
   padding: 20px;
   padding-bottom: 50px;
   text-align: center;
-  /*padding-left:240px;*/
 }
 .footer {
   height: 50px;
   margin-top: -50px;
 }
-
 
 
 
