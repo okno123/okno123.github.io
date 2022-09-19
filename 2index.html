@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="ru">
      <head>
-          <link rel="stylesheet" href ="style.css">
+          <link rel="stylesheet" href = "Untitled-2.css">
           <meta charset="UTF-8">
           <title>Домашняя работа</title>
      </head>
      
-<body style="margin:0;"> 
-<div style="width:100%; background-color:#FF00FF; padding: 10px; height:120px;">
+     <body> 
+        <header>
+            <div>
 
-      <img style="float:left; margin:0px; width:100px; height:99px;" src="https://github.com/okno123/okno123.github.io/blob/main/lyubimyj-krug.jpg?raw=true">
+                <img class="image"src="https://github.com/okno123/okno123.github.io/blob/main/lyubimyj-krug.jpg?raw=true">
+                <div class="titul"><h1>Домашняя работа 1</h1></div>
+           
+            </div>
+        </header>
 
-      <div style="background-color:#00FFFF; padding:16px;"><h2>Домашняя работа 1</h2></div>
-    </div>
+        <div class="centr">
 
-    <div style="max-width:800px; background-color:#00FFFF; margin: 0 auto; margin-top:20px; padding:10px;">
-    Контент
-    </div>
+        <nav class="menu">
+            <a href ="#footer">ссылка на футер</a>
+            <a href ="#form">ссылка на форму</a>
+            <a href ="#img">ссылка на картинки</a>
+            <a href ="#table">ссылка на таблицу</a>
+        </nav>
+
 
 
     <ol>
@@ -41,12 +49,14 @@
         <li>
             <a href="https://someshop.ru/catalog/iphone?page=1&perpage=20">ссылка с 2мя параметрами в URL</a>
         </li>    
+        
         <li>Ссылка основной навигации сайта с подписями title 
             <ul>
                 <li><a href="https://www.kubsu.ru/" title="Официальный сайт Кубанского государственного университета">(1)</a> 
                 <li><a href="https://www.kubsu.ru/ru/eduaction" title="Образование">(2)</a>
             </ul>  
         </li>     
+       
         <li>
             <a>https://www.kubsu.ru/(ссылка без href)</a>
         </li> 
@@ -70,24 +80,28 @@
                 <br>
                 ссылка изображение</a>
         </li>
-        <li> 
-            ссылки из прямоугольных и круглых областей картинки 
-            <br>
-            <ul>
-                <li>
-                    <img src="https://github.com/okno123/okno123.github.io/blob/main/100024104133b0.jpg?raw=true" usemap="#figura1" alt="квадрат">
+       
+        <li> ссылки из прямоугольных и круглых областей картинки 
+            <a id="img"></a>
+            <div class="image2">
+           
+                
+                    <img src=" https://github.com/okno123/okno123.github.io/blob/main/100024104133b0.jpg?raw=true" usemap="#figura1" alt="квадрат"style ="width:400px; height:400px; border:0px;">
                     <map name="figura1">
-                        <area shape="rect" coords="50,50,750,750" href="https://www.kubsu.ru/" alt="квадрат">
+                        <area shape="rect" coords="25,25,375,375" href="https://www.kubsu.ru/" alt="квадрат">
                     </map>
-                </li> 
-                <li>
-                    <img src=" https://github.com/okno123/okno123.github.io/blob/main/lyubimyj-krug.jpg?raw=true" usemap="#figura2" alt="круг">
+                
+                <br>
+
+                    <img src=" https://github.com/okno123/okno123.github.io/blob/main/lyubimyj-krug.jpg?raw=true" usemap="#figura2" alt="круг"style ="width:400px; height:400px; border:0px;">
                     <map name="figura2">
-                        <area shape="circle" coords="397,408,300" href="https://www.youtube.com/" alt="круг">
+                        <area shape="circle" coords="200,200,140" href="https://www.youtube.com/" alt="круг">
                     </map>
-                </li>
-            </ul>
+               
+            </div>
         </li>
+          
+
         <li>
             <a href="./example.html"> относительная на страницу в текущем каталоге</a>
         </li>    
@@ -106,25 +120,49 @@
              <a id="top"></a>
              <a href="#top">ссылка на внутреннюю</a>
         </li>
-        <br>
-         
-         <table>
-      <tbody><tr>
-        <th>Колонка 1</th>
-        <th>Колонка 2</th>
-      </tr>
-      <tr>
-        <td colspan="2">Ячейка 11 объединенная с 12</td>
-      </tr>
-      <tr>
-        <td>Ячейка 21</td>
-        <td>Ячейка 22</td>
-      </tr>
-    </tbody></table>
-        
     </ol>
-    <br>         
-    <h2>Форма (нужно заполнить)</h2>     
+</div>
+        <br>
+   
+        <a id="table"></a>
+
+        
+        <table>
+            <tbody><tr>
+                <th>Колонка 1</th>
+                <th>Колонка 2</th>
+                <th>Колонка 2</th>
+              </tr>
+              <tr>
+                <td colspan="3">Объединенные ячейки</td>
+              </tr>
+              <tr>
+                <td colspan="3">Объединенные ячейки</td>
+              </tr>
+              </tr>
+              <tr>
+                <td>Ячейка 21</td>
+                <td>Ячейка 22</td>
+                <td>Ячейка 23</td>
+              </tr>
+              <tr>
+                <td>Ячейка 31</td>
+                <td>Ячейка 32</td>
+                <td>Ячейка 33</td>
+              </tr>
+              <tr>
+                <td>Ячейка 41</td>
+                <td>Ячейка 42</td>
+                <td>Ячейка 43</td>
+              </tr>
+            </tbody></table>
+      
+    
+    <br>  
+    <div class="forma">
+
+    <h2>Форма (нужно заполнить)</h2>  
+    <a id="form"></a>   
      
     <form action="/" method="POST">
     
@@ -200,7 +238,21 @@
     с контрактом ознакомлен (а)</label><br>
     
     <input type="submit" value="Отправить">
-    </form>                  
+    </form>
+</div>
+    
+    
+    <a id="footer"></a>   
+
+    <div class="content">
+        <div class="content-inside">
+         (с) Пушарёв Никита 2022
+        </div>
+       </div>
+       <footer class="footer"></footer>
                         
     </body>                    
     </html>
+   
+
+         
