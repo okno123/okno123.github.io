@@ -1,0 +1,164 @@
+body 
+{
+ margin:0;   
+ background-color:#FFB6C1;
+ font-size: 22px;
+}
+
+header
+{
+  height:100px;
+  background-color:#00FFFF; 
+  padding:40px;
+}
+
+ul,ol
+{
+  padding: 0;  
+  list-style-position: inside;
+}
+  
+.titul
+{ text-align: center; 
+  color: #606060;
+}
+
+.image
+{
+  float:left; 
+  margin:-30px; 
+  width:120px; 
+  height:120px;
+}
+
+[src=" https://github.com/okno123/okno123.github.io/blob/main/100024104133b0.jpg?raw=true"],[src=" https://github.com/okno123/okno123.github.io/blob/main/lyubimyj-krug.jpg?raw=true"]
+{
+  outline:10px solid #00FFFF;
+}
+
+table 
+{
+  width: 70%;
+  border-collapse: collapse;
+}
+  
+td, th 
+{
+  border: 1px solid #98bf21;
+  padding: 3px 7px 2px 7px;
+}
+th 
+{
+  text-align: center;
+  padding: 5px;
+  background-color: #42a0c9;
+  color: #fff;
+}
+ tr:nth-child(even) 
+ {
+  text-align: center;
+  background:#FFF;
+  border:0px;
+  color:#000;
+}
+ tr:nth-child(odd) 
+ {text-align: center;
+  background:#DFE7C0;
+}
+ tr:first-child 
+ {text-align: center;
+  background:#8AB512;
+  color:#FFF;
+}
+
+.image2
+{ 
+    padding-left: 20px; 
+    padding-top: 20px; 
+    padding-bottom: 20px; /* Отступ снизу */
+}
+
+ul 
+{
+  list-style: none; 
+  margin: 0; 
+  padding-left: 0; 
+}
+a {text-decoration: none; }
+
+.menu
+{
+  display:flex;
+  flex-direction:column;
+  list-style: none;
+  margin: 15px 0 40px;
+  padding: 28px 0 5px;
+  text-align: center;
+  background: white;
+}
+menu li {display: inline-block;}
+.menu li:after {
+  content: "|";
+  color: #606060;
+  display: inline-block;
+  vertical-align:top;
+}
+.menu li:last-child:after {content: none;}
+.menu a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+.menu a, .menu a:visited {color: #9d999d;}
+.menu a.current, .menu-main a:hover{color: #feb386;}
+.menu a:before,
+.menu a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: #feb386;
+  transition: .8s;
+}
+
+.forma
+{
+  font-size: 26px;
+  text-align: center;
+}
+
+table 
+{
+width: 300px;
+border: 1px solid #000;
+margin: auto;
+}
+
+.centr
+{
+  text-align: center;
+}
+
+.content {
+  min-height: 100%;
+}
+.content-inside 
+{
+  padding: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.footer {
+  height: 50px;
+  margin-top: -50px;
+}
