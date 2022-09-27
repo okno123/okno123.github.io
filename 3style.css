@@ -92,13 +92,12 @@ a {text-decoration: none; }
   flex-direction:column;
   list-style: none;
   margin: 15px 0 40px;
-  padding: 28px 0 5px;
+  padding: 24px 0 15px;
   text-align: center;
   background: white;
 }
 menu li {display: inline-block;}
 .menu li:after {
-  content: "|";
   color: #606060;
   display: inline-block;
   vertical-align:top;
@@ -111,7 +110,7 @@ menu li {display: inline-block;}
   position: relative;
   padding-bottom: 20px;
   margin: 0 34px 0 30px;
-  font-size: 16px;
+  font-size: 18px;
   text-transform: uppercase;
   transition: color .2s;
 }
@@ -184,3 +183,4 @@ width:960px;
 max-width:1520px; 
 }
 }
+
