@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
      <head>
-          <link rel="stylesheet" href = "3style.css">
+          <link rel="stylesheet" href = "style.css">
           <meta charset="UTF-8">
           <title>Домашняя работа</title>
      </head>
@@ -16,9 +16,9 @@
             </div>
         </header>
 
-        
+       
         <ol>
-
+    <div id="nav">
         <nav class="menu">
             <a href ="#footer">ссылка на футер</a>
             <a href ="#form">ссылка на форму</a>
@@ -26,11 +26,9 @@
             <a href ="#table">ссылка на таблицу</a>
         </nav>
         </ol>
+    </div>
 
-        <div class="centr">
-
-
-
+    <div class="centr">
     <ol>
         <li>
             <a href="http://kubsu.ru/">абсолютная гиперссылка на главную страницу сайта example.com</a>
@@ -126,11 +124,9 @@
         </li>
     </ol>
 </div>
-        <br>
-   
+        <div id="wrapper">  
+        <div class="centr">
         <a id="table"></a>
-
-        
         <table>
             <tbody><tr>
                 <th>Колонка 1</th>
@@ -159,12 +155,13 @@
                 <td>Ячейка 43</td>
               </tr>
             </tbody></table>
+            </div>
+            <br>
       
-    
-    <br>  
     <div class="forma">
 
-    <h2>Форма (нужно заполнить)</h2>  
+    <div id="forms">
+    <h3>Форма (нужно заполнить)</h3>  
     <a id="form"></a>   
      
     <form action="/" method="POST">
@@ -242,16 +239,15 @@
     
     <input type="submit" value="Отправить">
     </form>
+    </div>
+    </div>  
 </div>
-    
-    
-    <a id="footer"></a>   
 
-    <div class="content">
-        <div class="content-inside">
+    <a id="footer"></a>   
+    <div class="foot">
+        <div class="foot-inside">
          (с) Пушарёв Никита 2022
         </div>
-       </div>
        <footer class="footer"></footer>
                         
     </body>                    
