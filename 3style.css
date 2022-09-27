@@ -133,13 +133,13 @@ menu li {display: inline-block;}
 
 .forma
 {
-  font-size: 26px;
+  font-size: 27px;
   text-align: center;
 }
 
 table 
 {
-width: 300px;
+width: 450px;
 border: 1px solid #000;
 margin: auto;
 }
@@ -149,16 +149,39 @@ margin: auto;
   text-align: center;
 }
 
-.content {
+.foot {
   min-height: 100%;
 }
-.content-inside 
+.foot-inside 
 {
   padding: 20px;
   padding-bottom: 50px;
   text-align: center;
+  
 }
 .footer {
+  
   height: 50px;
   margin-top: -50px;
+}
+
+#wrapper{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+@media only screen and (min-width: 1024px) 
+{
+#wrapper{
+  flex-direction: column;
+}
+#nav{
+  width: 100%;
+}
+.center{
+width:960px;
+}
+#forms{
+max-width:1520px; 
+}
 }
