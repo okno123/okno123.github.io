@@ -28,6 +28,7 @@ ul,ol
 
 .image
 {
+  float:left;
   margin:-30px; 
   width:100px; 
   height:100px;
