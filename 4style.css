@@ -20,7 +20,7 @@ ul,ol
   
 .titul
 { 
-  display: inline-block;
+  float: left;
   margin-top: 20px;
   text-align: center; 
   color: #606060;
