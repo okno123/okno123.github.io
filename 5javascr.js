@@ -21,6 +21,8 @@ if(isNaN(num2)==true){
 if(x==1){    
     result=num1*num2;
 }
-document.addEventListener("DOMContentLoaded", func);
 document.getElementById("result").innerHTML = result;
 }
+
+document.addEventListener("DOMContentLoaded", func);
+
