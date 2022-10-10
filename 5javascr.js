@@ -1,6 +1,4 @@
-
-var op; 
-
+ 
 function func() {
 
 var result;
