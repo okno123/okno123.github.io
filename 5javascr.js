@@ -14,7 +14,7 @@ if(isNaN(num1)==true){
 
 var num2 = Number(document.getElementById("num2").value);
 if(isNaN(num2)==true){
-    result = "Некорректная количество товара";
+    result = "Некорректное количество товара";
     x=0;
 }
 
@@ -24,8 +24,8 @@ if(x==1){
 document.getElementById("result").innerHTML = result;
 }
 
-window.addEventListener('DOMContentLoaded', function (event) {
+document.addEventListener('DOMContentLoaded', function (event) {
     console.log("DOM fully loaded and parsed");
     let b = document.getElementById("click");
-    b.addEventListener("DOMContentLoaded", func);
+    b.addEventListener("sss", func);
 });
