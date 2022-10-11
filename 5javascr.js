@@ -1,4 +1,6 @@
  
+var op; 
+
 function func() {
 
 var result;
@@ -22,5 +24,8 @@ if(x==1){
 document.getElementById("result").innerHTML = result;
 }
 
-document.addEventListener("DOMContentLoaded", func);
-
+window.addEventListener('DOMContentLoaded', function (event) {
+    console.log("DOM fully loaded and parsed");
+    let b = document.getElementById("click");
+    b.aaddEventListener("DOMContentLoaded", func);
+});
