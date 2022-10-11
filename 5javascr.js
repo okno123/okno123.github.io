@@ -1,4 +1,4 @@
- 
+
 var op; 
 
 function func() {
@@ -14,18 +14,19 @@ if(isNaN(num1)==true){
 
 var num2 = Number(document.getElementById("num2").value);
 if(isNaN(num2)==true){
-    result = "Некорректное количество товара";
+    result = "Некорректная количество товара";
     x=0;
 }
 
 if(x==1){    
     result=num1*num2;
 }
+alert("Вы собираетесь умножить 2 числа: "+num1+" и "+num2+".");
 document.getElementById("result").innerHTML = result;
 }
 
 window.addEventListener('DOMContentLoaded', function (event) {
     console.log("DOM fully loaded and parsed");
     let b = document.getElementById("click");
-    b.addEventListener("sss", func);
+    b.addEventListener("DOMContentLoaded", func);
 });
