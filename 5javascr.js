@@ -24,7 +24,7 @@ if(x==1){
 document.getElementById("result").innerHTML = result;
 }
 
-document.addEventListener('DOMContentLoaded', function (event) {
+window.addEventListener('DOMContentLoaded', function (event) {
     console.log("DOM fully loaded and parsed");
     let b = document.getElementById("click");
     b.addEventListener("sss", func);
