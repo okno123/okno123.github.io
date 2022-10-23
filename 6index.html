@@ -1,37 +1,29 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-        <script src = "6java.js" defer></script>
         <meta charset="utf-8">
         <title>Калькулятор</title>
+        <script src="6java.js" defer></script>
     </head>
 
-<body>
-     <!-- поле ввода второго числа -->
-     <input id="num2" placeholder="введи количество товара"/>
-     <br>
-
-    <form>
-        <select name="myselect">
-            <option value="2">Шорты</option>
-            <option value="3">Кроссовки</option>
-            <option value="1">Футболки</option>
+    <body>  
+    <div id="prodPrice">0 рублей</div>
+    Тип товара:
+    <form>    
+        <select name="prodType">
+        <option value="1">Футболки</option>
+        <option value="2">Шорты</option>
+        <option value="3">Кроссовки</option>
         </select>
-        
-        <div class="myradios" id="myradios" style="display: block;">
-            <label><input type="radio" name="myradio" value="r1">Черные</label>
-            <label><input type="radio" name="myradio" value="r2">Белые</label>
-            <label><input type="radio" name="myradio" value="r3">Зеленые</label>
-        </div>  
-
-        <div class="svostva" id="svostva" style="display: block;">
-            <label><input type="checkbox" name="svo" value="r1">Длинные</label>
-            <label><input type="checkbox" name="svo" value="r2">Много карманов</label>
-        </div>  
-
+        <div id="radios" style="display: none;">
+        <label><input type="radio" name="prodOptions" value="option1"> Обычные</label>
+        <label><input type="radio" name="prodOptions" value="option2"> Цветные без рисунка</label>
+        <label><input type="radio" name="prodOptions" value="option3"> С рисунком</label>
+        </div>
+        <div id="checkboxes" style="display: block;">
+        <label><input type="checkbox" name="prop1"> Длинные</label>
+        <label><input type="checkbox" name="prop2"> Короткие</label>
+        </div>
     </form>
-
-    <!-- кнопка для рассчётов -->
-    <button id = "click" onclick="func()">Посчитать</button>
-    <p id="result"></p>
-</body>
+    </body>
+</html>
