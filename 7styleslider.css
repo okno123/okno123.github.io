@@ -1,0 +1,39 @@
+body
+{
+    height: 100%;
+    margin: 0;
+    color: black;
+    background-color: rgb(0, 136, 227);
+}
+
+.main-aside-wrapper
+{
+    display: flex;
+    flex-direction: column;
+}
+.main-aside-wrapper aside
+{
+    flex: 1;
+    order: 1;
+}
+.main-aside-wrapper main
+{
+    flex: 3;
+    order: 2;
+}
+.clide
+{
+    font-size: 20px;
+    text-align: center;
+}
+img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+.wrapper
+{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
