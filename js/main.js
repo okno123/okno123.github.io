@@ -1,4 +1,5 @@
-$('.single-item').slick({
+document.addEventListener('DOMContentLoaded', function(event) {
+  $('.single-item').slick({
     dots: true,
   infinite: false,
   speed: 1300,
@@ -29,4 +30,5 @@ $('.single-item').slick({
       }
     }
   ]
+});  
 });
