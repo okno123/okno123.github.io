@@ -1,5 +1,5 @@
 html {
-    background-image: url(background.jpg);
+    background-color:#fccedb;
   }
   *,
   *::after,
@@ -39,7 +39,7 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
-    background: #fff;
+    background: #fccedb;
     width: 400px;
     padding: 25px;
     transition: 0.5s all;
@@ -68,7 +68,7 @@ html {
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 500;
-    color: #cfd0d3;
+    color: #000000;
     margin-bottom: 5px;
   }
   
@@ -77,11 +77,11 @@ html {
     font-size: 18px;
     border: none;
     outline: none;
-    border-bottom: 1px solid #cfd0d3;
+    border-bottom: 1px solid #000000;
   }
   
   .popup input:focus {
-    border-bottom: 1px solid #2982ff;
+    border-bottom: 1px solid #1cfb32;
   }
   
   .popup textarea {
@@ -90,17 +90,17 @@ html {
     height: 70px;
     border: none;
     outline: none;
-    border-bottom: 1px solid #cfd0d3;
+    border-bottom: 1px solid #000000;
     font-size: 18px;
     padding-top: 5px;
   }
   
   .popup textarea:focus {
-    border-bottom: 1px solid #2982ff;
+    border-bottom: 1px solid #1cfb32;
   }
   
   .popup textarea:focus + .label__text {
-    color: #2982ff;
+    color: #1cfb32;;
   }
   
   .popup button {
@@ -111,8 +111,8 @@ html {
     justify-content: center;
     color: #fff;
     font-size: 18px;
-    border: 2px solid #2982ff;
-    background: #2982ff;
+    border: 2px solid #1cfb32;
+    background: #1cfb32;
     cursor: pointer;
     text-transform: uppercase;
     transition: 0.5s all;
@@ -120,7 +120,7 @@ html {
   
   .popup button:hover {
     background: #fff;
-    color: #2982ff;
+    color: #1cfb32;
     transition: 0.5s all;
   }
   
@@ -128,10 +128,10 @@ html {
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 500;
-    color: #cfd0d3;
+    color: #000000;
   }
   
-  .btn {
+  .op {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -139,17 +139,17 @@ html {
   }
   
   .open-popup {
-    height: 45px;
+    height: 75px;
     color: #fff;
     font-size: 18px;
-    border: 2px solid #2982ff;
-    background: #2982ff;
+    border: 3px solid #ecfb1c;
+    background: #1cfb32;
     cursor: pointer;
     text-transform: uppercase;
   }
   
   .open-popup:hover {
     background: #fff;
-    color: #2982ff;
+    color: #1cfb32;
     transition: 0.5s all;
   }
