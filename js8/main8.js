@@ -55,13 +55,13 @@ document.addEventListener('DOMContentLoaded', () => {
     popup.classList.remove('active');
   });
 
-  document.addEventListener('click', (e) => {
+  /*document.addEventListener('click', (e) => {
     if (e.target === popupBg) {
       window.history.back();
       popupBg.classList.remove('active');
       popup.classList.remove('active');
     }
-  });
+  });*/
 
   $(function () {
     $('#form').submit(function (e) {
