@@ -1,1 +1,156 @@
 
+html {
+    background-color:#fccedb;
+  }
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+  
+  body {
+    overflow: hidden;
+  }
+  
+  .container {
+    max-width: 1220px;
+    margin: 0 auto;
+  }
+  
+  .popup__bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s all;
+  }
+  
+  .popup__bg.active {
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s all;
+  }
+  
+  .popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: #fccedb;
+    width: 400px;
+    padding: 25px;
+    transition: 0.5s all;
+  }
+  
+  .popup.active {
+    transform: translate(-50%, -50%) scale(1);
+    transition: 0.5s all;
+  }
+  
+  .close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .popup label {
+    width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .popup .label__text {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  
+  .popup input {
+    height: 45px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000000;
+  }
+  
+  .popup input:focus {
+    border-bottom: 1px solid #1cfb32;
+  }
+  
+  .popup textarea {
+    resize: none;
+    width: 100%;
+    height: 70px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000000;
+    font-size: 18px;
+    padding-top: 5px;
+  }
+  
+  .popup textarea:focus {
+    border-bottom: 1px solid #1cfb32;
+  }
+  
+  .popup textarea:focus + .label__text {
+    color: #1cfb32;;
+  }
+  
+  .popup button {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    border: 2px solid #1cfb32;
+    background: #1cfb32;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s all;
+  }
+  
+  .popup button:hover {
+    background: #fff;
+    color: #1cfb32;
+    transition: 0.5s all;
+  }
+  
+  .popup-checkbox__text {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000000;
+  }
+  
+  .btn {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .open-popup {
+    height: 75px;
+    color: #fff;
+    font-size: 18px;
+    border: 3px solid #ecfb1c;
+    background: #1cfb32;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .open-popup:hover {
+    background: #fff;
+    color: #1cfb32;
+    transition: 0.5s all;
+  }
