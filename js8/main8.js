@@ -52,14 +52,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   closePopupButton.addEventListener('click', () => {
     window.history.back();
-    popupBg.classList.remove('active');
-    popup.classList.remove('active');
+    //popupBg.classList.remove('active');
+    //popup.classList.remove('active');
   });
 
   document.addEventListener('click', (e) => {
     if (e.target === popupBg) {
       window.history.back();
-      popupBg.classList.remove('active');
+      //popupBg.classList.remove('active');
       //popup.classList.remove('active');
     }
   });
