@@ -45,9 +45,9 @@ document.addEventListener('DOMContentLoaded', () => {
         popup.classList.remove('active');
       };
       history.pushState({ page: 1 }, 'modal', '?modal');
-      window.history.go(1);
       popupBg.classList.add('active');
       popup.classList.add('active');
+      window.history.go(1);
     });
   });
 
