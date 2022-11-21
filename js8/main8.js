@@ -40,14 +40,14 @@ document.addEventListener('DOMContentLoaded', () => {
     button.addEventListener('click', (e) => {
       e.preventDefault();
       window.onpopstate = function () {
-        window.history.back();
+        //window.history.back();
         popupBg.classList.remove('active');
         popup.classList.remove('active');
       };
       history.pushState({ page: 1 }, 'modal', '?modal');
       popupBg.classList.add('active');
       popup.classList.add('active');
-      window.history.go(1);
+      //window.history.go(1);
     });
   });
 
