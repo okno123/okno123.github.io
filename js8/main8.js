@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (e.target === popupBg) {
       window.history.back();
       popupBg.classList.remove('active');
-      popup.classList.remove('active');
+      //popup.classList.remove('active');
     }
   });
 
