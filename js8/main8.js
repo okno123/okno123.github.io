@@ -40,7 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
     button.addEventListener('click', (e) => {
       e.preventDefault();
       window.onpopstate = function () {
-        //window.history.back();
         popupBg.classList.remove('active');
         popup.classList.remove('active');
       };
